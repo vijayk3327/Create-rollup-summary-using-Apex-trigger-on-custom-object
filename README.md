@@ -1,3 +1,5 @@
+<a href="https://www.w3web.net/roll-up-summary-trigger-on-custom-object/">Go to more details about this article__  www.w3web.net</a><br/><br/>
+
 trigger childObjTriggerRollUp on childObjTrigger__c (before insert, before update, before delete, after insert, after update, after delete, after undelete) {
     List<childObjTrigger__c> childObjList = new List<childObjTrigger__c>();
    Set<Id> accSetId = new Set<Id>();  
